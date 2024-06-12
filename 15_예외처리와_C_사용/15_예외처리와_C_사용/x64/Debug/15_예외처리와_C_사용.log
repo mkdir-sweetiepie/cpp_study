@@ -1,0 +1,4 @@
+﻿  예제6.cpp
+C:\Users\hong0\source\repos\15_예외처리와_C_사용\15_예외처리와_C_사용\예제6.cpp(20,14): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+C:\Users\hong0\source\repos\15_예외처리와_C_사용\15_예외처리와_C_사용\예제6.cpp(24,22): warning C4101: 's' :참조되지 않은 지역 변수입니다.
+  15_예외처리와_C_사용.vcxproj -> C:\Users\hong0\source\repos\15_예외처리와_C_사용\x64\Debug\15_예외처리와_C_사용.exe
