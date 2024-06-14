@@ -3,7 +3,7 @@
 
 ## Advanced Programming
 - 고급프로그래밍(2학년 1학기)수업  
-- 수업 예 관련 정리  
+- 수업 예제 관련 정리  
 
 ## Chapter 정보
 - Chapter 2: C++ 프로그래밍의 기본
