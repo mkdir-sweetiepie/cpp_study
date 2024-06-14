@@ -8,7 +8,7 @@ class Counter
 {
 	int _nID, _nItr;
 	static mutex _oMutex;
-
+	
 public:
 	Counter(int id, int nItr) : _nID(id), _nItr(nItr)
 	{

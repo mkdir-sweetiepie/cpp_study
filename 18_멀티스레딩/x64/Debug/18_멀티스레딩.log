@@ -1,0 +1,55 @@
+﻿  예제3.cpp
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(25,9): error C2600: 'Logger::Logger': 컴파일러 생성 특수 멤버 함수를 정의할 수 없습니다. 먼저 클래스에 선언해야 합니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(31,14): error C2039: 'log': 'Logger'의 멤버가 아닙니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(13,7): message : 'Logger' 선언을 참조하십시오.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(33,26): error C2065: 'mMutex': 선언되지 않은 식별자입니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(34,2): error C2065: 'mQueue': 선언되지 않은 식별자입니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(35,2): error C2065: 'mCondVar': 선언되지 않은 식별자입니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(40,11): error C2079: 'ofs'은(는) 정의되지 않은 class 'std::basic_ofstream<char,std::char_traits<char>>'을(를) 사용합니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(40,14): error C2440: '초기화 중': 'const char [8]'에서 'int'(으)로 변환할 수 없습니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(40,14): message : 이 변환이 가능한 컨텍스트가 없습니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(48,11): error C2664: 'void std::condition_variable::wait(std::unique_lock<std::mutex> &) noexcept': 인수 1을(를) 'void (__cdecl *)(_Lock0 &,_Lock1 &,_LockN &...)'에서 'std::unique_lock<std::mutex> &'(으)로 변환할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\mutex(662,10): message : 'std::condition_variable::wait' 선언을 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\mutex(668,10): message : 'void std::condition_variable::wait(std::unique_lock<std::mutex> &,_Predicate)'일 수 있습니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(48,11): message : 'void std::condition_variable::wait(std::unique_lock<std::mutex> &,_Predicate)': 2개의 인수가 필요합니다. 1개가 제공되었습니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(48,11): message : 인수 목록 '(overloaded-function)'을(를) 일치시키는 동안
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,9): error C2677: 이항 '<<': '_Ty' 형식을 사용하는 전역 연산자가 없거나 허용되는 변환이 없습니다.
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(1081,32): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'일 수 있습니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(1004,9): message : 또는       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(946,31): message : 또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)': 'int'에서 'std::basic_ostream<char,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(940,31): message : 또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)': 'int'에서 'std::basic_ostream<char,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(935,31): message : 또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)': 'int'에서 'std::basic_ostream<char,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(929,31): message : 또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)': 'int'에서 'std::basic_ostream<char,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(893,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(850,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(812,31): message : 또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)': 'int'에서 'std::basic_ostream<char,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(767,31): message : 또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)': 'int'에서 'std::basic_ostream<char,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(731,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream(687,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(225,37): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,std::thread::id)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,std::thread::id)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3641,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(1988,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5185,32): message : 또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(57,5): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': 'int'에서 'std::basic_ostream<_Elem,_Traits> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(71,10): error C2039: 'log': 'Logger'의 멤버가 아닙니다.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(13,7): message : 'Logger' 선언을 참조하십시오.
+C:\Users\hyeon\Desktop\cpp_study-master\cpp_study-master\18_멀티스레딩\예제3.cpp(77,9): error C2264: 'Logger::Logger': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
